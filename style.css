@@ -1,0 +1,171 @@
+@import url('https://fonts.google.com/specimen/Figtree');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 384px;
+    height: 522px;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    padding: 24px;
+    margin-top: 40px;
+    box-shadow: 8px 8px 0 #000000;
+    font-family: 'Figtree', sans-serif;
+    transition: all .3s ease;
+}
+
+.logo {
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.BTN-learn {
+    width: 82px;
+    height: 29px;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 4px;
+    pointer-events: none;
+    margin-bottom: 12px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.Date {
+    font-weight: 400;
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.Bio {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-family: 'Figtree', sans-serif;
+    cursor: pointer;
+}
+
+.Info {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 50%);
+    font-family: 'Figtree', sans-serif;
+    margin-bottom: 24px;
+}
+
+.Border-pfpximg {
+    width: 142px;
+    height: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.PFP {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.user {
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+.wrapper:active {
+    box-shadow: 16px 16px 0 #000000;
+}
+
+.Bio:active {
+    color: hsl(47, 88%, 63%);
+}
+
+@media screen and (max-width: 375px) {
+    .wrapper {
+        width: 327px;
+        height: 501px;
+        margin-top: 2px;
+        padding: 7px 24px 24px 24px;
+    }
+    
+    .logo {
+        width: 279px;
+        height: 200px;
+        margin-bottom: 0;
+    }
+    
+    .BTN-learn {
+        width: 73px;
+        height: 26px;
+        font-size: 12px;
+    }
+    
+    .Date {
+        font-weight: 400;
+        color: hsl(0, 0%, 7%);
+        font-size: 14px;
+        margin-bottom: 12px;
+        font-family: 'Figtree', sans-serif;
+    }
+    
+    .Bio {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 12px;
+        font-family: 'Figtree', sans-serif;
+        cursor: pointer;
+    }
+    
+    .Info {
+        font-size: 14px;
+        font-weight: 400;
+        color: hsl(0, 0%, 50%);
+        font-family: 'Figtree', sans-serif;
+        margin-bottom: 24px;
+    }
+    
+    .Border-pfpximg {
+        width: 142px;
+        height: 32px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    
+    .PFP {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+    .user {
+        font-weight: 800;
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    
+    .wrapper:active {
+        box-shadow: 16px 16px 0 #000000;
+    }
+    
+    .Bio:active {
+        color: hsl(47, 88%, 63%);
+    }
+}
